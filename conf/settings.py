@@ -130,3 +130,6 @@ AUTH_USER_MODEL = 'app_user.UserModel'
 
 LOGIN_REDIRECT_URL = reverse_lazy('categories')
 LOGOUT_REDIRECT_URL = reverse_lazy('login')
+
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
